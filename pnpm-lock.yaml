@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@1natsu/wait-element': ^3.0.0
   '@plasmohq/prettier-plugin-sort-imports': 1.1.1
   '@types/chrome': 0.0.193
   '@types/node': 18.0.3
@@ -13,6 +14,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
+  '@1natsu/wait-element': 3.0.0
   plasmo: 0.50.1_bh5lzhyio7mkgj6ofo4h54tic4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -27,6 +29,12 @@ devDependencies:
   typescript: 4.7.4
 
 packages:
+
+  /@1natsu/wait-element/3.0.0:
+    resolution: {integrity: sha512-USUXkz7Wfvg/FI5eyyTPJcaQMDDSDMf54d2PZck/519QRWHzy88R2DzOvvd0I3aR9G3iPPTQfZIvaitpS344og==}
+    dependencies:
+      p-cancelable: 2.1.1
+    dev: false
 
   /@ampproject/remapping/2.2.0:
     resolution: {integrity: sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==}
@@ -4326,6 +4334,11 @@ packages:
   /os-tmpdir/1.0.2:
     resolution: {integrity: sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /p-cancelable/2.1.1:
+    resolution: {integrity: sha512-BZOr3nRQHOntUjTrH8+Lh54smKHoHyur8We1V8DSMVrl5A2malOOwuJRnKRDjSnkoeBh4at6BwEnb5I7Jl31wg==}
+    engines: {node: '>=8'}
     dev: false
 
   /p-cancelable/3.0.0:
